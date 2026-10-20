@@ -245,7 +245,7 @@ class DeepResearcherTool(AsyncTool):
     def __init__(self,
                  *args,
                  model_id: str = "gpt-4.1",
-                 maxt_depth: int = 2,
+                 max_depth: int = 2,
                  max_insights: int = 20,
                  time_limit_seconds: int = 120,
                  max_follow_ups: int = 3,
@@ -254,7 +254,7 @@ class DeepResearcherTool(AsyncTool):
         super(DeepResearcherTool, self).__init__()
 
         self.model_id = model_id
-        self.max_depth = maxt_depth
+        self.max_depth = max_depth
         self.max_insights = max_insights
         self.time_limit_seconds = time_limit_seconds
         self.max_follow_ups = max_follow_ups

@@ -7,6 +7,13 @@ requires-python = ">=3.11"
 authors = [
     { name = "Chengdong Xu" },
     { name = "Chao Yu" },
+    { name = "Kaiqiang Ke" },
+    { name = "Ziheng Liu" },
+    { name = "Jiaqi Wei" },
+    { name = "Zibo Shao" },
+    { name = "Jungang Li" },
+    { name = "Weile Guo" },
+    { name = "Yiling Wu" },
 ]
 dynamic = ["dependencies"]
 

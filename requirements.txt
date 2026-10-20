@@ -43,3 +43,6 @@ baidusearch>=1.0.3
 
 # Optional: experiment tracking during training
 swanlab>=0.5
+
+# Tests
+pytest>=8.0
