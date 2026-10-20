@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "EvoMAS: Learning Execution-Time Workflows for Multi-Agent Systems"
 readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
 authors = [
     { name = "Chengdong Xu" },
     { name = "Chao Yu" },

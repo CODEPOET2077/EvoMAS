@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/DAI%202026-Oral-8A2BE2?style=flat-square" alt="DAI 2026 Oral">
   <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+">
   <img src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square" alt="License">
 </p>
 
 <img src="assets/overview.png" alt="EvoMAS overview" width="95%">
@@ -75,3 +76,7 @@ Offline unit tests (no API key needed): `python -m pytest tests -q`.
 ## Acknowledgements
 
 The agent runtime and tools build on [smolagents](https://github.com/huggingface/smolagents) and [DeepResearchAgent](https://github.com/SkyworkAI/DeepResearchAgent).
+
+## License
+
+This project is released under the [Apache License 2.0](LICENSE). It includes code adapted from smolagents (Apache-2.0) and DeepResearchAgent (MIT); see [NOTICE](NOTICE).
