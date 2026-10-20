@@ -1,0 +1,5 @@
+{"task_id": "example_0", "question": "How many more encoder layers does BERT-base have compared to the encoder of the original Transformer described in 'Attention Is All You Need'?", "true_answer": "6"}
+{"task_id": "example_1", "question": "In which year was the paper 'Attention Is All You Need' published at NeurIPS?", "true_answer": "2017"}
+{"task_id": "example_2", "question": "What is the capital city of Australia?", "true_answer": "Canberra"}
+{"task_id": "example_3", "question": "What is the product of 17 and 23?", "true_answer": "391"}
+{"task_id": "example_4", "question": "Which chemical element has the atomic number 26? Answer with its English name.", "true_answer": "Iron"}

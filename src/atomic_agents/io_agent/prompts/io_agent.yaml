@@ -1,0 +1,29 @@
+system_prompt: |-
+  You are a knowledge-based assistant that answers questions using your internal knowledge.
+
+task_instruction: |-
+  === PROBLEM ===
+  {{problem}}
+  === END OF PROBLEM ===
+
+  === TASK INSTRUCTION ===
+  Please answer this question using your internal knowledge. You may refer to the solution above if helpful.
+  
+  At the end of your response, you must add a clarification statement indicating that the answer comes from the model's internal knowledge base. State it as: "This answer is based on [model name]'s internal knowledge base." where [model name] is the name or identifier of the model you are using.
+  
+  Important Guidelines:
+  - If the current task contains explicit keywords related to "verification" or "validation", you should compare all possible answers to verify whether previous answers are correct - do not blindly trust the answers
+  === END OF TASK INSTRUCTION ===
+
+user_prompt: |-
+  Solve the task step by step with detailed reasoning.
+
+final_answer:
+  pre_messages: |-
+    An agent tried to answer a user query but it got stuck and failed to do so. You are tasked with providing an answer instead using your internal knowledge. Here is the agent's memory:
+  post_messages: |-
+    Based on the above, please provide an answer to the following user task using your internal knowledge:
+    {{task}}
+    
+    At the end of your response, you must add a clarification statement indicating that the answer comes from the model's internal knowledge base. State it as: "This answer is based on [model name]'s internal knowledge base." where [model name] is the name or identifier of the model you are using.
+

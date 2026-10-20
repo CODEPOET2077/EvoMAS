@@ -1,0 +1,21 @@
+[project]
+name = "evomas"
+version = "1.0.0"
+description = "EvoMAS: Learning Execution-Time Workflows for Multi-Agent Systems"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Chengdong Xu" },
+    { name = "Chao Yu" },
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

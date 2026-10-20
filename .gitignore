@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Environments
+.env
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# EvoMAS outputs (logs, rollouts, checkpoints)
+workdir/
+swanlog/
+*.pth
+*.log
+
+# Benchmark data (keep the toy example file)
+data/*
+!data/example_tasks.jsonl
